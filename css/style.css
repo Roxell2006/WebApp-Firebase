@@ -1,0 +1,65 @@
+/* ----------  Menu  ---------- */
+.navbar-brand{
+	font-size: 24px;
+}
+.navbar-light{
+	background-color: rgba(255,255,255,.9);
+}
+
+/* ---------- Formulaire ---------- */
+#formulaire{
+	width: 510px;
+	margin: 150px auto 0 auto;
+}
+#commentForm label.error, #identForm label.error {
+	margin-left: 210px;
+	width: 280px;
+	font-size: 12px;
+	color: red;
+}
+#commentForm, #identForm{
+	width: 510px;
+}
+#commentForm label, #identForm label{
+	width: 200px;
+}
+#commentForm input[id="email"], #identForm input[id="email_login"]{
+	width: 300px;
+}
+#commentForm input[type="submit"]{
+	margin: 30px 0 0 180px;
+}
+#identForm input[type="submit"]{
+	width: 150px;
+	margin: 40px 0 0 150px;
+}
+
+/* ---------- Profil ---------- */
+#profil{
+	margin-top: 100px;
+}
+#blocForm{
+	border: 1px solid;
+}
+#blocPhoto{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#photo{
+	width: 280px;
+	margin: 0 200px 30px 10px;
+}
+#profilForm label{
+	width: 450px;
+}
+#profilForm input[type="text"]{
+	margin: 7px;
+	width: 450px;
+}
+#save{
+	margin: 20px 0 20px 0;
+	width: 300px;
+}
+
+
+	
